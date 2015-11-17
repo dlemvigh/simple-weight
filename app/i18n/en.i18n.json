@@ -1,4 +1,6 @@
 {
   "date": "date",
-  "weight": "weight"
+  "weight": "weight",
+  "update": "update",
+  "new": "new"
 }

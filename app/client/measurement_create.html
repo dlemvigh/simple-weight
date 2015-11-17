@@ -1,3 +1,7 @@
 <template name="measurementCreate">
-    test
+    {{#autoForm collection="Measurements" type="insert" id="newMeasurementForm"}}
+        {{> afQuickField name="weight"}}
+        <button type="submit" class="btn btn-success">{{_ "update"}}</button>
+    {{/autoForm}}
 </template>
+
